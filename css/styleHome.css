@@ -1,0 +1,218 @@
+
+/*Parte onde mostra */
+.Nome-Home3{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    padding: 50px 0;
+    background-color: rgb(196, 194, 194);
+    font-family: 'Montserrat', sans-serif;    
+}
+
+
+.texto{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0px 50px;
+}
+.texto strong{
+    font-weight: bold;
+}
+/*aba de trabalhos já feito*/
+
+footer{
+    box-shadow: 0px 0px 20px rgb(66, 62, 62);
+    text-align: center;
+    background: rgb(66, 62, 62);
+    
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    background: black;
+    padding: 20px;
+}
+/*Formularío de preenchimento*/
+label{
+    text-emphasis-color: #5e55ae;
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+input, textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    margin: 25px;
+    padding: 15px 0;
+    background: #5e55ae;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    border-style: double;
+    transition: 1s all;   
+    cursor: pointer; 
+}
+
+.enviar:hover{
+    background: #5e55ae;
+    transform: scale(1.1);
+}
+/*Parte da Modal, onde deve conter todas as informações dos criadores do site*/
+.X{
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    margin: 0 650px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background: white;
+    top: 100px;
+}
+.X:active{
+    color: #5e55ae;
+}
+.X:hover{
+    color: #5e55ae;
+    border: 3px solid orange;
+    border-radius: 50%;
+    transition: 1s;
+}
+.modal-background{
+    background: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    top: -200%;
+    transition: 400ms;
+}
+
+.modal{
+    width: 50%;
+    height: 60%;
+    background: white;
+    margin: 120px auto 0 auto;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+.dados-pessoais{
+    width: 50%;
+    display: inline;
+}
+.dados-pessoais img{
+    width: 40%;
+    height: 87.7%;
+    border-right: 3px solid orange;
+    float: left;
+}
+.frase{
+    margin: 10px 0;
+}
+.dados-pessoais h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.modal-texto{
+    border-bottom: 3px solid orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.dados-pessoais p{
+padding: 3px 0;
+}
+.dados-pessoais strong{
+    font-weight: bold;
+}
+.dados-pessoais em{
+    font-style: italic;
+}
+.modal-background2{
+    background: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    top: -100%;
+    transition: 400ms;
+}
+.modal-video{
+    width: 50%;
+    height: 80%;
+    background: white;
+    margin: 80px auto 0 auto;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+.X2{
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    margin: 0 650px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background: white;
+    top: 70px;
+}
+.X2:active{
+    color: #5e55ae;
+}
+.X2:hover{
+    color: #5e55ae;
+    border: 3px solid orange;
+    border-radius: 50%;
+    transition: 1s;
+}
+.videos{
+    margin:50px 90px 0;
+}
+.descriçao{
+    padding: 20px 0;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 18px;
+}
+.scroll{
+    transition: all .12s;
+}
+@media screen and (max-width: 480px) {
+    .bordas, .dados-pessoais, .descriçao, .frase, .lista-beneficios, .logo, .modal, .modal-background, .modal-background2, .modal-texto, .modal-video, .Nome-destaque, .Nome-Home, .Nome-Home2, .Nome-Home3, .Portfolio, .trabalhos, .videos, .X, .X2 {
+        width: auto;
+    }
+    .form, .form label, .form input, .form textarea, .enviar, .enviar:hover{
+        margin: 0 0 0 300px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios, .imagem-trabalhos, .imagens {
+        width: 100%;
+    }
+}
+
